@@ -17,9 +17,18 @@ export default function NavBar() {
           <span className="navBarLink">Home</span>
           <span className="navBarLink">Profile</span>
           <div className="navBarIcons">
-              <div className="navBarIcon">🙍‍♂️</div>
-              <div className="navBarIcon">💬</div>
-              <div className="navBarIcon">⚙️</div>
+              <div className="navBarIcon">
+                🙍‍♂️
+                <span className="iconTag">9</span>
+              </div>
+              <div className="navBarIcon">
+                💬
+                <span className="iconTag">6</span>
+              </div>
+              <div className="navBarIcon">
+                ⚙️
+                <span className="iconTag">2</span>
+                </div>
           </div>
         </div>
     </div>
