@@ -1,7 +1,6 @@
 import React from 'react'
 
 
-
 export default function NavBar() {
   return (
     <div className="NavBarBox">
@@ -10,7 +9,8 @@ export default function NavBar() {
         </div>
         <div className="navBarCenter">
             <div className="searchBarBox">
-               
+              <span className="searchIcon">🔎</span>
+              <input placeholder='Search for your friend' className="searchInput" />
             </div>
         </div>
         <div className="navBarRight"></div>
