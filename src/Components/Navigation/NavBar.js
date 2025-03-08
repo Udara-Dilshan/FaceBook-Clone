@@ -8,7 +8,9 @@ export default function NavBar() {
             <span className="logo">FaceBook</span>
         </div>
         <div className="navBarCenter">
-            
+            <div className="searchBarBox">
+                <SearchIcon className="searchBoxIcon"/>
+            </div>
         </div>
         <div className="navBarRight"></div>
     </div>
