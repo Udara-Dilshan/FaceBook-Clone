@@ -13,7 +13,10 @@ export default function NavBar() {
               <input placeholder='Search for your friend' className="searchInput" />
             </div>
         </div>
-        <div className="navBarRight"></div>
+        <div className="navBarRight">
+          <span className="navBarLink">Home</span>
+          <span className="navBarLink">Profile</span>
+        </div>
     </div>
   )
 }
