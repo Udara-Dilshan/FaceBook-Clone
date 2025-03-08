@@ -14,8 +14,10 @@ export default function NavBar() {
             </div>
         </div>
         <div className="navBarRight">
+          <div className="navBarLinks">
           <span className="navBarLink">Home</span>
           <span className="navBarLink">Profile</span>
+          </div>
           <div className="navBarIcons">
               <div className="navBarIcon">
                 🙍‍♂️
