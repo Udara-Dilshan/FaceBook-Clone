@@ -16,6 +16,11 @@ export default function NavBar() {
         <div className="navBarRight">
           <span className="navBarLink">Home</span>
           <span className="navBarLink">Profile</span>
+          <div className="navBarIcons">
+              <div className="navBarIcon">🙍‍♂️</div>
+              <div className="navBarIcon">💬</div>
+              <div className="navBarIcon">⚙️</div>
+          </div>
         </div>
     </div>
   )
