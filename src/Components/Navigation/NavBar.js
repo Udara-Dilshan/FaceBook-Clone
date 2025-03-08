@@ -1,4 +1,5 @@
 import React from 'react'
+import SearchIcon from '@mui/icons-material/Search';
 
 export default function NavBar() {
   return (
@@ -6,7 +7,9 @@ export default function NavBar() {
         <div className="navBarLeft">
             <span className="logo">FaceBook</span>
         </div>
-        <div className="navBarCenter"></div>
+        <div className="navBarCenter">
+            
+        </div>
         <div className="navBarRight"></div>
     </div>
   )
