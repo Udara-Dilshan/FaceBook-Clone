@@ -30,6 +30,9 @@ export default function NavBar() {
                 <span className="iconTag">2</span>
                 </div>
           </div>
+          <div className="pic">
+            <img src="/images/1.png" alt="Profile Picture" className="profilePicImg" />
+          </div>
         </div>
     </div>
   )
